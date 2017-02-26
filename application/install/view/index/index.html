@@ -1,0 +1,44 @@
+{extend name="public/base"/}
+{block name="body"}
+<div class="margin-top">
+
+	<header>
+		<h2 class="text-center">__NAME__ 安装协议</h2>
+
+		<section class="text-center abstract">版权所有 (c) 2017-2017，__COMPANY__保留所有权利。</section>
+	</header>
+	<section class="article-content" style="text-indent: 2em">
+		<p>
+			__NAME__基于
+			<a target="_blank" href="http://www.thinkphp.cn">ThinkPHP</a>框架
+			的开发产品。感谢顶想公司为__NAME__提供内核支持。
+		</p>
+
+		<p>
+			是我无意，触开了伤感的泉
+			枝头上的兰花，瞬间合拢
+			所有的鱼，都已死去
+			留着这些水，还有何用
+		</p>
+		<p>
+			想像的门临时关闭，后退
+			我找不到路，饮过的酒
+			醉到今天，牵过的衣袖儿
+			还拂着楼梯，现正拥在胸前
+		</p>
+		<p>
+			月相有变，架起的天文镜
+			看得太遥远，缺时太多啊，少圆
+			亲爱的，容我这样轻轻的呼一声
+			暗香在眉月的夜里，鸟一样地，惊散
+		</p>
+	</section>
+
+</div>
+{/block}
+{block name="footer"}
+<div class="text-center">
+	<a class="btn btn-primary" href="{:url('Install/index/check')}">同意安装协议</a>
+	<a class="btn btn-default" style="background: white;" href="http://__WEBSITE__">不同意</a>
+</div>
+{/block}
